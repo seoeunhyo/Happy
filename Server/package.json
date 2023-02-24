@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-express-mysql",
+  "version": "1.0.0",
+  "description": "Node.js Restful CRUD API with Node.js, Express and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi"
+  ],
+  "author": "seo",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.199.0",
+    "@aws-sdk/client-transcribe": "^3.168.0",
+    "aws-sdk": "^2.1232.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^2.10.0",
+    "multiparty": "^4.2.3",
+    "mysql": "^2.18.1",
+    "spawn-async": "^0.0.2",
+    "uuid": "^9.0.0"
+  }
+}
